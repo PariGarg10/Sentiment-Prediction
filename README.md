@@ -29,20 +29,24 @@ A **user-friendly Streamlit web application** to perform **sentiment analysis** 
 ```bash
 git clone https://github.com/yourusername/streamlit-app.git
 cd streamlit-app
+```
+2. Install dependencies
 
-Install dependencies
-
+```
 pip install -r requirements.txt
+```
 
+3. Run the app
 
-Run the app
-
+```
 streamlit run app.py
+```
 
-
-Open the provided local URL in your browser to use the app.
+4. Open the provided local URL in your browser to use the app.
 
 File Structure
+
+```
 streamlit-app/
 │
 ├─ app.py                  # Main Streamlit application
@@ -51,3 +55,4 @@ streamlit-app/
 ├─ models/                 # Pretrained ML models (if any)
 ├─ README.md               # Project documentation
 └─ .gitignore              # Git ignore file
+```
